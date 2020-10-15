@@ -39,7 +39,7 @@ public class TVM { //自动售票机 Ticket Vending Machine
         }
     }
 
-    public int refond() {
+    public int refund() {
         int temp = balance;
         balance = 0;
         return temp;

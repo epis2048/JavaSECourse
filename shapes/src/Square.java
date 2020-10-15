@@ -94,7 +94,7 @@ public class Square {
     private void draw() {
         if (isVisible) {
             Canvas canvas = Canvas.getCanvas();
-            canvas.draw(this, color, new Rectangle(x, y, a, a));
+            //canvas.draw(this, color, new Rectangle(x, y, a, a));
             canvas.wait(10);
         }
     }
