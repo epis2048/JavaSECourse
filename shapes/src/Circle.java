@@ -93,7 +93,7 @@ public class Circle {
     private void draw() {
         if (isVisible) {
             Canvas canvas = Canvas.getCanvas();
-            canvas.draw(this, color, new Ellipse2D.Double(x, y, r, r));
+            //canvas.draw(this, color, new Ellipse2D.Double(x, y, r, r));
             canvas.wait(10);
         }
     }
